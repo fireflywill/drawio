@@ -1,9 +1,39 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.14">
   <diagram name="第 1 页" id="MiQiDrmkTOJBN87dkVoB">
-    <mxGraphModel>
+    <mxGraphModel dx="1144" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="olvYfyH7Y6xL0h50YPTM-21" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=horizontal;startArrow=none;endArrow=none;" edge="1" parent="1" source="olvYfyH7Y6xL0h50YPTM-19" target="olvYfyH7Y6xL0h50YPTM-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="olvYfyH7Y6xL0h50YPTM-22" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=horizontal;startArrow=none;endArrow=none;" edge="1" parent="1" source="olvYfyH7Y6xL0h50YPTM-19" target="olvYfyH7Y6xL0h50YPTM-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="olvYfyH7Y6xL0h50YPTM-25" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;" edge="1" parent="1" source="olvYfyH7Y6xL0h50YPTM-19" target="olvYfyH7Y6xL0h50YPTM-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="用户进程" treeRoot="1" id="olvYfyH7Y6xL0h50YPTM-19">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="1">
+            <mxGeometry y="320" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;span style=&quot;font-family:&#39;Microsoft YaHei&#39;; font-size:11.2pt; font-weight:600; color:#303030;&quot;&gt;1. DhfOsalNotifyInterInit&lt;/span&gt;" treeRoot="1" id="olvYfyH7Y6xL0h50YPTM-20">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="1">
+            <mxGeometry x="160" y="320" width="220" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="olvYfyH7Y6xL0h50YPTM-27" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=horizontal;startArrow=none;endArrow=none;" edge="1" parent="1" source="olvYfyH7Y6xL0h50YPTM-24" target="olvYfyH7Y6xL0h50YPTM-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;span style=&quot;font-family:&#39;Microsoft YaHei&#39;; font-size:11.2pt; font-weight:600; color:#303030;&quot;&gt;2. DapUserIrqCtrlInit&lt;/span&gt;" treeRoot="1" id="olvYfyH7Y6xL0h50YPTM-24">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="1">
+            <mxGeometry x="160" y="420" width="220" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="olvYfyH7Y6xL0h50YPTM-26" value="&lt;span style=&quot;font-family:&#39;Microsoft YaHei&#39;; font-size:8pt; color:#303030;&quot;&gt;将g_userIrqCtrl指向 g_sp804Timer&lt;/span&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="410" width="120" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
